@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constexpr", "Constexpr\Cons
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StringOptimization", "StringOptimization\StringOptimization.vcxproj", "{CF319EF1-B5A9-4208-999E-ADAC2C7FD75D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Rvalue", "Rvalue\Rvalue.vcxproj", "{E8BA59E5-7B70-478D-B0DB-80721BF26874}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{CF319EF1-B5A9-4208-999E-ADAC2C7FD75D}.Release|x64.Build.0 = Release|x64
 		{CF319EF1-B5A9-4208-999E-ADAC2C7FD75D}.Release|x86.ActiveCfg = Release|Win32
 		{CF319EF1-B5A9-4208-999E-ADAC2C7FD75D}.Release|x86.Build.0 = Release|Win32
+		{E8BA59E5-7B70-478D-B0DB-80721BF26874}.Debug|x64.ActiveCfg = Debug|x64
+		{E8BA59E5-7B70-478D-B0DB-80721BF26874}.Debug|x64.Build.0 = Debug|x64
+		{E8BA59E5-7B70-478D-B0DB-80721BF26874}.Debug|x86.ActiveCfg = Debug|Win32
+		{E8BA59E5-7B70-478D-B0DB-80721BF26874}.Debug|x86.Build.0 = Debug|Win32
+		{E8BA59E5-7B70-478D-B0DB-80721BF26874}.Release|x64.ActiveCfg = Release|x64
+		{E8BA59E5-7B70-478D-B0DB-80721BF26874}.Release|x64.Build.0 = Release|x64
+		{E8BA59E5-7B70-478D-B0DB-80721BF26874}.Release|x86.ActiveCfg = Release|Win32
+		{E8BA59E5-7B70-478D-B0DB-80721BF26874}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

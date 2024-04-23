@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{08757076-9f73-4b69-8d62-5bc760b80519}</ProjectGuid>
-    <RootNamespace>CppOptimization</RootNamespace>
+    <ProjectGuid>{e8ba59e5-7b70-478d-b0db-80721bf26874}</ProjectGuid>
+    <RootNamespace>Rvalue</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,16 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CvsCpp.cpp" />
-    <ClCompile Include="DynamicMemoryTest.cpp" />
-    <ClCompile Include="RvalueTest.cpp" />
     <ClCompile Include="main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CvsCpp.h" />
-    <ClInclude Include="DynamicMemoryTest.h" />
-    <ClInclude Include="RvalueTest.h" />
-    <ClInclude Include="Stopwatch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
